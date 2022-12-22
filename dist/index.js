@@ -80,7 +80,7 @@ var defaultPollingConfig = {
   enabled: inBrowser && unsupportedUserAgentsPattern.test(navigator.userAgent),
   url: "https://httpbin.org/get",
   timeout: 5000,
-  interval: 5000
+  interval: 120000
 };
 
 // base class that detects offline/online changes
